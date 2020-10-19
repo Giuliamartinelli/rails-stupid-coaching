@@ -1,18 +1,40 @@
 // Place all the styles related to the questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 {
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
 #your-question {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
-box-shadow: 2px 2px;
   align-items: center;
+  background-color: #A9D2D5;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.14);
+  margin: 10px;
+    &:hover {
+      background-color: azure;
+    }
 }
 #stupid-answer {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
-box-shadow: 2px 2px;
   align-items: center;
+  background-color: #A9D2D5;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.14);
+  padding-top: 15px;
+  margin: 10px;
+    &:hover {
+      background-color: azure;
+    }
 }
-.container {
+}
+footer {
+  text-align: center;
 
 }

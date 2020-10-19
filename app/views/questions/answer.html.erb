@@ -1,5 +1,5 @@
 <h1>Stupid Coach</h1>
-
+<div class="container">
   <div id="your-question">
   <p><%= params["question"] %></p>
   <p> -Your question </p>
@@ -9,6 +9,10 @@
   <%= @answer %>
   <p>-Coach answer</p>
   </div>
+</div>
+<footer>
+  <%= link_to "Ask Again", ask_path %>
+</footer>
 
 
 
